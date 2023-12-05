@@ -1,0 +1,7 @@
+﻿[$RootKey$\TextMate\LanguageConfiguration\GrammarMapping]
+"source.dshl"="$PackageFolder$\Dagor-Shader-Language-Server\grammar\language-configuration.json"
+"source.hlsl"="$PackageFolder$\Dagor-Shader-Language-Server\grammar\language-configuration.json"
+[$RootKey$\ShellFileAssociations\.dshl]
+"DefaultIconMoniker"="fba9db40-994d-4428-8291-fd479a60d1c7:0"
+[$RootKey$\ShellFileAssociations\.hlsl]
+"DefaultIconMoniker"="fba9db40-994d-4428-8291-fd479a60d1c7:1"

@@ -1,0 +1,3 @@
+[submodule "DagorShaderLanguageSupport/Dagor-Shader-Language-Server"]
+	path = DagorShaderLanguageSupport/Dagor-Shader-Language-Server
+	url = https://github.com/GaijinEntertainment/Dagor-Shader-Language-Server.git

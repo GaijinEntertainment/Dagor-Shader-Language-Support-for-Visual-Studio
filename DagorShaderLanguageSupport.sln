@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DagorShaderLanguageSupport", "DagorShaderLanguageSupport\DagorShaderLanguageSupport.csproj", "{4FEFCBAF-8FB1-4544-8919-5889FB9310AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A87984A3-29CF-4995-9EF8-FD370BCEE237}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.github\workflows\build.yml = .github\workflows\build.yml
+		CHANGELOG.md = CHANGELOG.md
+		README.md = README.md
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FEFCBAF-8FB1-4544-8919-5889FB9310AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEFCBAF-8FB1-4544-8919-5889FB9310AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEFCBAF-8FB1-4544-8919-5889FB9310AA}.Debug|x86.ActiveCfg = Debug|x86
+		{4FEFCBAF-8FB1-4544-8919-5889FB9310AA}.Debug|x86.Build.0 = Debug|x86
+		{4FEFCBAF-8FB1-4544-8919-5889FB9310AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEFCBAF-8FB1-4544-8919-5889FB9310AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FEFCBAF-8FB1-4544-8919-5889FB9310AA}.Release|x86.ActiveCfg = Release|x86
+		{4FEFCBAF-8FB1-4544-8919-5889FB9310AA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {b4f86fc7-83be-4c5c-8bab-b85c9d959029}
+	EndGlobalSection
+EndGlobal
