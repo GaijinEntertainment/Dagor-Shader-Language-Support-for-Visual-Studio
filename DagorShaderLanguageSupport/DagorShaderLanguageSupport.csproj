@@ -62,6 +62,13 @@
     <Content Include="Monikers.imagemanifest">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Resources\Screenshots\auto-close.gif" />
+    <Content Include="Resources\Screenshots\bracket-match.gif" />
+    <Content Include="Resources\Screenshots\comment-toggle.gif" />
+    <Content Include="Resources\Screenshots\icons.png" />
+    <Content Include="Resources\Screenshots\indentation.gif" />
+    <Content Include="Resources\Screenshots\syntax-highlight-dark.png" />
+    <Content Include="Resources\Screenshots\syntax-highlight-light.png" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
@@ -77,12 +84,12 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.LanguageServer.Client">
-      <Version>17.4.1068</Version>
+      <Version>17.0.5165</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.LanguageServer.Protocol">
-      <Version>17.2.8</Version>
+      <Version>17.0.5133</Version>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.SDK" Version="17.4.33103.184" ExcludeAssets="runtime">
+    <PackageReference Include="Microsoft.VisualStudio.SDK" Version="17.0.32112.339" ExcludeAssets="runtime">
       <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Workspace">
@@ -91,7 +98,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Workspace.VSIntegration">
       <Version>16.3.43</Version>
     </PackageReference>
-    <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.5.4065">
+    <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.0.5240">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
@@ -128,10 +135,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Dagor-Shader-Language-Server/grammar</VSIXSubPath>
     </Content>
-    <Resource Include="Resources\icon.png">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Resource>
+    <Resource Include="Resources\icon.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
   <Target Name="NpmInstall" Inputs="Dagor-Shader-Language-Server\package.json" Outputs="Dagor-Shader-Language-Server\node_modules\.install-stamp">

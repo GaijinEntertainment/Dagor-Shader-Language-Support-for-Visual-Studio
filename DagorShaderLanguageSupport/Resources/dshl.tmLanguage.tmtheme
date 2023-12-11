@@ -12,7 +12,7 @@
         <key>settings</key>
         <dict>
           <key>vsclassificationtype</key>
-          <string>CppControlKeyword</string>
+          <string>keyword - control</string>
         </dict>
       </dict>
 	  <dict>
@@ -84,7 +84,7 @@
         <key>settings</key>
         <dict>
           <key>vsclassificationtype</key>
-          <string>cppType</string>
+          <string>type</string>
         </dict>
       </dict>
 	  <dict>
@@ -93,10 +93,37 @@
         <key>settings</key>
         <dict>
           <key>vsclassificationtype</key>
-          <string>cppFunction</string>
+          <string>method name</string>
         </dict>
       </dict>
-    </array>
+	  <dict>
+	    <key>scope</key>
+		<string>aaa</string>
+		<key>settings</key>
+		<dict>
+		  <key>vsclassificationtype</key>
+		  <string>aaa</string>
+		</dict>
+	  </dict>
+	  <dict>
+	    <key>scope</key>
+		<string>constant.character.escape</string>
+		<key>settings</key>
+		<dict>
+		  <key>vsclassificationtype</key>
+		  <string>string - escape character</string>
+		</dict>
+	  </dict>
+	  <dict>
+	    <key>scope</key>
+		<string>variable</string>
+		<key>settings</key>
+		<dict>
+		  <key>vsclassificationtype</key>
+		  <string>identifier</string>
+		</dict>
+	  </dict>
+	</array>
     <key>uuid</key>
     <string>6a72db69-23eb-4886-87be-9b4bd975f77e</string>
   </dict>
