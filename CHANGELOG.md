@@ -1,8 +1,8 @@
 # Change Log
 
-There are no public releases yet.
+## [1.0.0] - 2023.12.11.
 
-## [Unreleased]
+### Added
 
 -   Syntax highlight
 -   Comment toggling
