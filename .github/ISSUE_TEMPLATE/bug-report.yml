@@ -1,0 +1,29 @@
+name: Report a bug
+description: Report a bug, for example, the extension crashes, or one of the features doesn't work correctly, etc.
+title: '[Bug]: '
+labels: ['bug']
+assignees:
+    - zalan-racz-gaijin
+body:
+    - type: markdown
+      attributes:
+          value: __Please, don't share any information, that is not supposed to be public!__ While not all fields are required, please give me as much information as possible to be able to reproduce the problem.
+    - type: input
+      id: extension-version
+      attributes:
+          label: The extension's version
+          description: You can find it in the extensions's page in the __Extensions__ / __Manage Extensions...__ / __Installed__ window, on the right side.
+          placeholder: eg. 1.1.0
+    - type: input
+      id: vs-version
+      attributes:
+          label: Visual Studio's version
+          description: You can find it in __Help__ / __About Microsoft Visual Studio__.
+          placeholder: eg. 17.8.3
+    - type: textarea
+      id: description
+      attributes:
+          label: Description
+          description: Please provide information, like what have you done when the problem happened, what exactly happened, error messages, logs, pictures, etc.
+      validations:
+          required: true

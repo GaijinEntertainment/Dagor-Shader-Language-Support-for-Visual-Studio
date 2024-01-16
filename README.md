@@ -1,5 +1,6 @@
 # Dagor Shader Language Support
 
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/gaijin.GaijinDagorShaderLanguageSupportVS?color=44cc11)](https://marketplace.visualstudio.com/items?itemName=gaijin.GaijinDagorShaderLanguageSupportVS)
 [![build](https://github.com/GaijinEntertainment/Dagor-Shader-Language-Support-for-Visual-Studio/actions/workflows/build.yml/badge.svg)](https://github.com/GaijinEntertainment/Dagor-Shader-Language-Support-for-Visual-Studio/actions/workflows/build.yml)
 
 Dagor Shader Language Support for Visual Studio.
