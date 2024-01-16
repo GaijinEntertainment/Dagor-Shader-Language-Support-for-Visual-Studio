@@ -135,7 +135,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Dagor-Shader-Language-Server/grammar</VSIXSubPath>
     </Content>
-    <Resource Include="Resources\icon.png" />
+    <Content Include="Resources\icon.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
