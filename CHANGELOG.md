@@ -1,5 +1,30 @@
 # Change Log
 
+## [1.2.0] - 2024.02.15.
+
+### Added
+
+-   Code completion (for HLSL defines, include statements, DSHL macro parameters)
+-   Document highlights (for HLSL defines, DSHL macro parameters)
+-   Hover (for HLSL defines)
+-   Document symbols (for HLSL defines)
+-   Go to definition (for HLSL defines, DSHL macro parameters)
+-   Go to declaration (for HLSL defines, DSHL macro parameters)
+-   Go to implementation (for HLSL defines)
+
+### Improved
+
+-   Various optimizations
+
+### Fixed
+
+-   Providing HLSL code completion instead of DSHL code completion in .hlsli files
+-   Adding ##assert to code completion and syntax highlight
+-   Adding the missing DSHL modifiers, properties, and functions to the code completion and the syntax highlight, removing unused operators from the syntax highlight
+-   Fixing a bug if there are more DSHL macro arguments than macro parameters
+-   Fixing a bug when a DSHL macro appeared multiple times in code completion
+-   Preventing unnecessary analyzations, when file is not changed, just opened in the IDE
+
 ## [1.1.0] - 2024.01.16.
 
 ### Added
