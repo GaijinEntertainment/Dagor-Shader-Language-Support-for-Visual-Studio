@@ -17,7 +17,7 @@ The extension colorizes types, variables, functions, constructors, keywords, mod
 
 ### Code completion
 
-The extension provides types, variables, functions, constructors, keywords, modifiers, semantics, attributes, preprocessor directives, code snippets, and DSHL macros using IntelliSense, according to the context. It can also give you a quick summary about the item when available.
+The extension provides types, variables, functions, constructors, keywords, modifiers, semantics, attributes, preprocessor directives, code snippets, DSHL macros, and HLSL defines using IntelliSense, according to the context. It can also give you a quick summary about the item when available.
 
 ![code completion](DagorShaderLanguageSupport/Resources/Screenshots/completion.gif)
 
@@ -29,37 +29,37 @@ The extension can display a signature helper for DSHL macros.
 
 ### Document highlights
 
-The extension can highlight all the occurrences of the selected DSHL macro in the file.
+The extension can highlight all the occurrences of the selected DSHL macro or HLSL define in the file.
 
 ![highlights](DagorShaderLanguageSupport/Resources/Screenshots/highlights.gif)
 
 ### Hover
 
-The extension can provide useful information if you hover over DSHL macros.
+The extension can provide useful information if you hover over DSHL macros or HLSL defines.
 
 ![hover](DagorShaderLanguageSupport/Resources/Screenshots/hover.gif)
 
 ### Document symbols
 
-The extension can provide breadcrumbs about the DSHL macros.
+The extension can provide breadcrumbs about the DSHL macros and HLSL defines.
 
 ![symbols](DagorShaderLanguageSupport/Resources/Screenshots/symbols.gif)
 
 ### Go to / Peek definitions
 
-You can find (go to / peek) the definition of a DSHL macro.
+You can find (go to / peek) the definition of a DSHL macro or a HLSL define.
 
 ![definitions](DagorShaderLanguageSupport/Resources/Screenshots/definition.gif)
 
 ### Go to declarations
 
-You can find the declaration of a DSHL macro.
+You can find the declaration of a DSHL macro or a HLSL define.
 
 ![declarations](DagorShaderLanguageSupport/Resources/Screenshots/declaration.gif)
 
 ### Go to implementations
 
-You can find the implementation of DSHL macro.
+You can find the implementation of DSHL macro or a HLSL define.
 
 ![implementations](DagorShaderLanguageSupport/Resources/Screenshots/implementation.gif)
 
@@ -90,6 +90,17 @@ If you have any problems or feature request for the extension, feel free to crea
 ## Release Notes
 
 For more information, see the [changelog](CHANGELOG.md).
+
+### 1.2.0
+
+- Code completion (for HLSL defines, include statements, DSHL macro parameters)
+- Document highlights (for HLSL defines, DSHL macro parameters)
+- Hover (for HLSL defines)
+- Document symbols (for HLSL defines)
+- Go to definition (for HLSL defines, DSHL macro parameters)
+- Go to declaration (for HLSL defines, DSHL macro parameters)
+- Go to implementation (for HLSL defines)
+- Several bugfixes and optimizations
 
 ### 1.1.0
 
