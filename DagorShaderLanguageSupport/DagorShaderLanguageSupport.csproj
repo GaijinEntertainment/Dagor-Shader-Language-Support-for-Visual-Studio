@@ -146,13 +146,16 @@
     <Exec Command="npm install" WorkingDirectory="Dagor-Shader-Language-Server" />
     <Touch Files="Dagor-Shader-Language-Server\node_modules\.install-stamp" AlwaysCreate="true" />
   </Target>
-  <Target Name="GenerateAntlr" DependsOnTargets="NpmInstall">
-    <Exec Command="npm run generate-antlr" WorkingDirectory="Dagor-Shader-Language-Server" />
+  <Target Name="GenerateAntlrCondition" DependsOnTargets="NpmInstall">
+    <Exec Command="npm run generate-condition-antlr" WorkingDirectory="Dagor-Shader-Language-Server" />
   </Target>
-  <Target Name="NpmRunBuildDebug" DependsOnTargets="GenerateAntlr" BeforeTargets="BeforeBuild" Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  <Target Name="GenerateAntlrDshl" DependsOnTargets="GenerateAntlrCondition">
+    <Exec Command="npm run generate-dshl-antlr" WorkingDirectory="Dagor-Shader-Language-Server" />
+  </Target>
+  <Target Name="NpmRunBuildDebug" DependsOnTargets="GenerateAntlrDshl" BeforeTargets="BeforeBuild" Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <Exec Command="npm run build" WorkingDirectory="Dagor-Shader-Language-Server" />
   </Target>
-  <Target Name="NpmRunBuildRelease" DependsOnTargets="GenerateAntlr" BeforeTargets="BeforeBuild" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  <Target Name="NpmRunBuildRelease" DependsOnTargets="GenerateAntlrDshl" BeforeTargets="BeforeBuild" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Exec Command="npm run build-production" WorkingDirectory="Dagor-Shader-Language-Server" />
   </Target>
 </Project>
