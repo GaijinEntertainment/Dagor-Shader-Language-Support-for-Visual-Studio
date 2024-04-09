@@ -15,6 +15,12 @@ The extension colorizes types, variables, functions, constructors, keywords, mod
 
 ![syntax highlight, light theme](DagorShaderLanguageSupport/Resources/Screenshots/syntax-highlight-light.png)
 
+### Diagnostics
+
+The extension can show compile time errors or warnings when you open or save a file.
+
+![diagnostics](DagorShaderLanguageSupport/Resources/Screenshots/diagnostics.gif)
+
 ### Code completion
 
 The extension provides types, variables, functions, constructors, keywords, modifiers, semantics, attributes, shaders, block statements, preprocessor directives, code snippets, DSHL macros, and HLSL defines using IntelliSense, according to the context. It can also give you a quick summary about the item when available.
@@ -45,21 +51,27 @@ The extension can provide outline information and breadcrumbs about DSHL variabl
 
 ![symbols](DagorShaderLanguageSupport/Resources/Screenshots/symbols.gif)
 
+### Formatting
+
+The extension can format the whole document, or the selected region.
+
+![format](DagorShaderLanguageSupport/Resources/Screenshots/format.gif)
+
 ### Go to / Peek definitions
 
-You can find (go to / peek) the definition of a DSHL variable, function, shader, block statement, macro or a HLSL define.
+You can find (go to / peek) the definition of a DSHL variable, function, shader, block statement, macro, HLSL define, or to the included file.
 
 ![definitions](DagorShaderLanguageSupport/Resources/Screenshots/definition.gif)
 
 ### Go to declarations
 
-You can find the declaration of a DSHL variable, function, shader, block statement, macro or a HLSL define.
+You can find the declaration of a DSHL variable, function, shader, block statement, macro, HLSL define, or to the included file.
 
 ![declarations](DagorShaderLanguageSupport/Resources/Screenshots/declaration.gif)
 
 ### Go to implementations
 
-You can find the implementation of DSHL function, shader, block statement, macro or a HLSL define.
+You can find the implementation of DSHL function, shader, block statement, macro, HLSL define, or to the included file.
 
 ![implementations](DagorShaderLanguageSupport/Resources/Screenshots/implementation.gif)
 
@@ -90,6 +102,13 @@ If you have any problems or feature request for the extension, feel free to crea
 ## Release Notes
 
 For more information, see the [changelog](CHANGELOG.md).
+
+### 1.5.0
+
+-   Diagnostics
+-   Code formatting
+-   Includes work with go to declaration/definition/implementation
+-   Other smaller improvements
 
 ### 1.3.0
 
