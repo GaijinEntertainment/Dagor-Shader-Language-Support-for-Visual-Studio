@@ -1,6 +1,19 @@
 # Change Log
 
-## [1.3.0] - 2024.02.14.
+## [1.5.0] - 2024.04.09.
+
+### Added
+
+-   Diagnostics (only on save at the moment)
+-   Code formatting (whole document, range, ranges)
+-   Includes work with go to declaration/definition/implementation
+
+### Fixed
+
+-   Fixing an error where certain modifiers' range was used instead of the variable's range
+-   Updated packages
+
+## [1.3.0] - 2024.03.14.
 
 ### Added
 
