@@ -35,19 +35,19 @@ The extension can display a signature helper for DSHL functions, and macros.
 
 ### Document highlights
 
-The extension can highlight all the occurrences of the selected DSHL variable, function, shader, block statement, macro or HLSL define in the file.
+The extension can highlight all the occurrences of the selected DSHL variable, function, shader, block statement, macro, HLSL variable, struct, class, interface, enum, or define in the file.
 
 ![highlights](DagorShaderLanguageSupport/Resources/Screenshots/highlights.gif)
 
 ### Hover
 
-The extension can provide useful information if you hover over DSHL variables, functions, shaders, block statements, macros or HLSL defines.
+The extension can provide useful information if you hover over DSHL variables, functions, shaders, block statements, macros, HLSL variables, structs, classes, interfaces, enums, or defines.
 
 ![hover](DagorShaderLanguageSupport/Resources/Screenshots/hover.gif)
 
 ### Document symbols
 
-The extension can provide outline information and breadcrumbs about DSHL variables, shaders, block statements, macros and HLSL defines.
+The extension can provide outline information and breadcrumbs about DSHL variables, shaders, block statements, macros, HLSL variables, structs, classes, interfaces, enums, and defines.
 
 ![symbols](DagorShaderLanguageSupport/Resources/Screenshots/symbols.gif)
 
@@ -59,21 +59,27 @@ The extension can format the whole document, or the selected region.
 
 ### Go to / Peek definitions
 
-You can find (go to / peek) the definition of a DSHL variable, function, shader, block statement, macro, HLSL define, or to the included file.
+You can find (go to / peek) the definition of a DSHL variable, function, shader, block statement, macro, HLSL variable, struct, class, interface, enum, define, or to the included file.
 
 ![definitions](DagorShaderLanguageSupport/Resources/Screenshots/definition.gif)
 
 ### Go to declarations
 
-You can find the declaration of a DSHL variable, function, shader, block statement, macro, HLSL define, or to the included file.
+You can find the declaration of a DSHL variable, function, shader, block statement, macro, HLSL variable, struct, class, interface, enum, define, or to the included file.
 
 ![declarations](DagorShaderLanguageSupport/Resources/Screenshots/declaration.gif)
 
 ### Go to implementations
 
-You can find the implementation of DSHL function, shader, block statement, macro, HLSL define, or to the included file.
+You can find the implementation of a DSHL function, shader, block statement, macro, HLSL struct, class, interface, enum, define, or to the included file.
 
 ![implementations](DagorShaderLanguageSupport/Resources/Screenshots/implementation.gif)
+
+### Go to type definition
+
+You can find the type definition of an HLSL variable.
+
+![type definition](DagorShaderLanguageSupport/Resources/Screenshots/type-definition.gif)
 
 ### Comment toggling
 
@@ -102,6 +108,18 @@ If you have any problems or feature request for the extension, feel free to crea
 ## Release Notes
 
 For more information, see the [changelog](CHANGELOG.md).
+
+### 1.7.0
+
+-   Code completion (for HLSL variables, structs, enums, classes, and interfaces)
+-   Document highlights (for HLSL variables, structs, enums, classes, and interfaces)
+-   Hover (for HLSL variables, structs, enums, classes, and interfaces)
+-   Document symbols (for HLSL variables, structs, enums, classes, and interfaces)
+-   Go to definition (for HLSL variables, structs, enums, classes, and interfaces)
+-   Go to declaration (for HLSL variables, structs, enums, classes, and interfaces)
+-   Go to implementation (for HLSL structs, enums, classes, and interfaces)
+-   Go to type definition (for HLSL variables)
+-   Several improvements, and bugfixes
 
 ### 1.5.0
 

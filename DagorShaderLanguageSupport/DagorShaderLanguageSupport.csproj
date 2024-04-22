@@ -79,6 +79,7 @@
     <Content Include="Resources\Screenshots\symbols.gif" />
     <Content Include="Resources\Screenshots\syntax-highlight-dark.png" />
     <Content Include="Resources\Screenshots\syntax-highlight-light.png" />
+    <Content Include="Resources\Screenshots\type-definition.gif" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>

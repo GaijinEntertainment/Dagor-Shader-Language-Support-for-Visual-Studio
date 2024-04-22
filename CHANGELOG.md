@@ -1,5 +1,27 @@
 # Change Log
 
+## [1.7.0] 2024.04.22.
+
+### Added
+
+-   Code completion (for HLSL variables, structs, enums, classes, and interfaces)
+-   Document highlights (for HLSL variables, structs, enums, classes, and interfaces)
+-   Hover (for HLSL variables, structs, enums, classes, and interfaces)
+-   Document symbols (for HLSL variables, structs, enums, classes, and interfaces)
+-   Go to definition (for HLSL variables, structs, enums, classes, and interfaces)
+-   Go to declaration (for HLSL variables, structs, enums, classes, and interfaces)
+-   Go to implementation (for HLSL structs, enums, classes, and interfaces)
+-   Go to type definition (for HLSL variables)
+
+### Improved
+
+-   Updated packages
+
+### Fixed
+
+-   Preventing duplicated items in code completion
+-   Fixing a formatting bug where line continuation characters caused formatting inside defines
+
 ## [1.5.0] - 2024.04.09.
 
 ### Added
