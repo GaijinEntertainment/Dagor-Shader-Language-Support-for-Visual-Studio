@@ -109,6 +109,17 @@ If you have any problems or feature request for the extension, feel free to crea
 
 For more information, see the [changelog](CHANGELOG.md).
 
+### 1.8.0
+
+-   Code completion (for HLSL struct, class, and enum members)
+-   Document highlights (for HLSL struct, class, and enum members)
+-   Hover (for HLSL struct, class, and enum members)
+-   Go to definition (for HLSL struct, class, and enum members)
+-   Go to declaration (for HLSL struct, class, and enum members)
+-   Go to implementation (for HLSL struct, and class members)
+-   Go to type definition (for HLSL struct, and class members)
+-   Several improvements, and bugfixes
+
 ### 1.7.0
 
 -   Code completion (for HLSL variables, structs, enums, classes, and interfaces)
