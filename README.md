@@ -109,6 +109,10 @@ If you have any problems or feature request for the extension, feel free to crea
 
 For more information, see the [changelog](CHANGELOG.md).
 
+### 1.8.1
+
+-   In 1.8.0 I accidentally published the language server 1.7.0, instead of 1.8.0, this release fixes this and makes new features available
+
 ### 1.8.0
 
 -   Code completion (for HLSL struct, class, and enum members)

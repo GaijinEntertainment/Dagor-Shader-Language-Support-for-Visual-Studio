@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.8.1] 2024.05.17.
+
+### Fixed
+
+-   In 1.8.0 I accidentally published the language server 1.7.0, instead of 1.8.0, this release fixes this and makes new features available
+
 ## [1.8.0] 2024.05.14.
 
 ### Added
