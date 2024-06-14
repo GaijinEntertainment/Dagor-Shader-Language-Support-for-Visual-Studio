@@ -29,25 +29,25 @@ The extension provides types, variables, functions, constructors, keywords, modi
 
 ### Signature help
 
-The extension can display a signature helper for DSHL functions, and macros.
+The extension can display a signature helper for functions, and macros.
 
 ![signature help](DagorShaderLanguageSupport/Resources/Screenshots/signature-help.gif)
 
 ### Document highlights
 
-The extension can highlight all the occurrences of the selected DSHL variable, function, shader, block statement, macro, HLSL variable, struct, class, interface, enum, or define in the file.
+The extension can highlight all the occurrences of the selected DSHL variable, function, shader, block statement, macro, HLSL variable, function, struct, class, interface, enum, or define in the file.
 
 ![highlights](DagorShaderLanguageSupport/Resources/Screenshots/highlights.gif)
 
 ### Hover
 
-The extension can provide useful information if you hover over DSHL variables, functions, shaders, block statements, macros, HLSL variables, structs, classes, interfaces, enums, or defines.
+The extension can provide useful information if you hover over DSHL variables, functions, shaders, block statements, macros, HLSL variables, functions, structs, classes, interfaces, enums, or defines.
 
 ![hover](DagorShaderLanguageSupport/Resources/Screenshots/hover.gif)
 
 ### Document symbols
 
-The extension can provide outline information and breadcrumbs about DSHL variables, shaders, block statements, macros, HLSL variables, structs, classes, interfaces, enums, and defines.
+The extension can provide outline information and breadcrumbs about DSHL variables, shaders, block statements, macros, HLSL variables, functions, structs, classes, interfaces, enums, and defines.
 
 ![symbols](DagorShaderLanguageSupport/Resources/Screenshots/symbols.gif)
 
@@ -59,19 +59,19 @@ The extension can format the whole document, or the selected region.
 
 ### Go to / Peek definitions
 
-You can find (go to / peek) the definition of a DSHL variable, function, shader, block statement, macro, HLSL variable, struct, class, interface, enum, define, or to the included file.
+You can find (go to / peek) the definition of a DSHL variable, function, shader, block statement, macro, HLSL variable, function, struct, class, interface, enum, define, or to the included file.
 
 ![definitions](DagorShaderLanguageSupport/Resources/Screenshots/definition.gif)
 
 ### Go to declarations
 
-You can find the declaration of a DSHL variable, function, shader, block statement, macro, HLSL variable, struct, class, interface, enum, define, or to the included file.
+You can find the declaration of a DSHL variable, function, shader, block statement, macro, HLSL variable, function, struct, class, interface, enum, define, or to the included file.
 
 ![declarations](DagorShaderLanguageSupport/Resources/Screenshots/declaration.gif)
 
 ### Go to implementations
 
-You can find the implementation of a DSHL function, shader, block statement, macro, HLSL struct, class, interface, enum, define, or to the included file.
+You can find the implementation of a DSHL function, shader, block statement, macro, HLSL function, struct, class, interface, enum, define, or to the included file.
 
 ![implementations](DagorShaderLanguageSupport/Resources/Screenshots/implementation.gif)
 
@@ -80,6 +80,14 @@ You can find the implementation of a DSHL function, shader, block statement, mac
 You can find the type definition of an HLSL variable.
 
 ![type definition](DagorShaderLanguageSupport/Resources/Screenshots/type-definition.gif)
+
+### Rename
+
+The extension can rename DSHL variables, macros, macro parameters, HLSL types, enums, enum members, variables, functions, shaders, blocks, and defines.
+
+### Find all references
+
+The extension can find all references of DSHL variables, macros, macro parameters, HLSL types, enums, enum members, variables, functions, shaders, blocks, and defines.
 
 ### Comment toggling
 
@@ -108,6 +116,20 @@ If you have any problems or feature request for the extension, feel free to crea
 ## Release Notes
 
 For more information, see the [changelog](CHANGELOG.md).
+
+### 1.9.0
+
+-   Code completion (for HLSL functions)
+-   Document highlights (for HLSL functions)
+-   Hover (for HLSL functions)
+-   Document symbols (for HLSL functions)
+-   Signature help (for HLSL functions)
+-   Go to definition (for user HLSL functions)
+-   Go to declaration (for user HLSL functions)
+-   Go to implementation (for user HLSL functions)
+-   Rename (for all language constructs)
+-   Find all references (for all language constructs)
+-   Several improvements, and bugfixes
 
 ### 1.8.1
 
